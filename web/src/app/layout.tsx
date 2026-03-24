@@ -14,8 +14,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Buy Me a Coffee | Monad Testnet",
   description: "Send MON tips with a message on Monad testnet",
