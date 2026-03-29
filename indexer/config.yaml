@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=./node_modules/envio/evm.schema.json
+name: buy-me-a-coffee-indexer
+description: BuyMeACoffee indexer on Monad Testnet
+field_selection:
+  transaction_fields:
+    - "hash"
+contracts:
+  - name: BuyMeACoffee
+    events:
+      - event: "NewMemo(address indexed from, uint256 timestamp, string name, string message, uint256 amount)"
+chains:
+  - id: 10143 # Monad Testnet
+    start_block: 0
+    contracts:
+      - name: BuyMeACoffee
+        address: 0x4CB21C74aFB88a52635dfDa52a72EB185F5CfE07

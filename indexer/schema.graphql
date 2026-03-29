@@ -1,0 +1,10 @@
+type Memo {
+  id: ID!
+  sender: String!
+  timestamp: BigInt!
+  name: String!
+  message: String!
+  amount: BigInt!
+  blockNumber: Int!
+  transactionHash: String!
+}
