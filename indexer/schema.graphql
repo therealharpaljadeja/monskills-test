@@ -1,0 +1,8 @@
+type GuestBook_MessageSigned {
+  id: ID!
+  signer: String!
+  message: String!
+  timestamp: BigInt!
+  event_id: BigInt!
+}
+
