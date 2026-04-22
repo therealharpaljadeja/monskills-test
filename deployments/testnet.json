@@ -1,0 +1,7 @@
+{
+  "chainId": 10143,
+  "safeMultisig": "0x1b6b6A4700D1D57e5eEea39A923875B754295AFb",
+  "guestbook": "0x126405eb668ebd2572f18605f2eca66b45e1e2a3",
+  "deployTxHash": "0x3f1356e3c29f968fdd0181aa0e77fc298db5f2a9a3f00a7f21ab478f1f221fb5",
+  "deployBlockNumber": 27045085
+}
