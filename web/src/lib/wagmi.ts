@@ -2,7 +2,9 @@ import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 import { monadTestnet } from "wagmi/chains";
 import { http } from "wagmi";
 
-const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID ?? "";
+const projectId =
+  process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID ||
+  "monskills-guestbook-placeholder";
 
 export const config = getDefaultConfig({
   appName: "Monad Guestbook",
