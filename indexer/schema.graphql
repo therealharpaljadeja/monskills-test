@@ -1,8 +1,0 @@
-type Guestbook_MessageSigned {
-  id: ID!
-  event_id: BigInt!
-  signer: String!
-  message: String!
-  timestamp: BigInt!
-}
-
