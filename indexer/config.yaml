@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=./node_modules/envio/evm.schema.json
+name: Guestbook
+field_selection:
+  transaction_fields:
+    - hash
+chains:
+- id: 10143
+  start_block: 27315847
+  contracts:
+  - name: Guestbook
+    address:
+    - 0x4e4BAd12992A84c46Aac44B6d02b8060199B2770
+    events:
+    - event: Signed(uint256 indexed id, address indexed signer, uint256 timestamp, string message)

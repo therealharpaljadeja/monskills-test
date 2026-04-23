@@ -1,0 +1,13 @@
+# Foundry build output
+out/
+cache/
+broadcast/
+
+# Editor
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
