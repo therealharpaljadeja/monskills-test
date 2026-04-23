@@ -1,0 +1,15 @@
+import { getDefaultConfig } from "@rainbow-me/rainbowkit";
+import { monadTestnet } from "wagmi/chains";
+import { http } from "wagmi";
+
+const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID ?? "";
+
+export const config = getDefaultConfig({
+  appName: "Monad Guestbook",
+  projectId,
+  chains: [monadTestnet],
+  transports: {
+    [monadTestnet.id]: http("https://testnet-rpc.monad.xyz"),
+  },
+  ssr: true,
+});
