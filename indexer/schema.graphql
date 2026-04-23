@@ -1,0 +1,9 @@
+type GuestbookEntry {
+  id: ID!
+  entryId: BigInt!
+  signer: String!
+  message: String!
+  timestamp: BigInt!
+  blockNumber: BigInt!
+  txHash: String!
+}

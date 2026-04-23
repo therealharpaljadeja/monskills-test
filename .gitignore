@@ -1,0 +1,33 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Next.js
+web/.next/
+web/out/
+web/.vercel/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/**/dry-run/
+contracts/broadcast/**/run-*.json
+!contracts/broadcast/**/run-latest.json
+
+# Envio indexer
+indexer/generated/
+indexer/.envio/
+indexer/logs/
+
+# OS
+.DS_Store
+Thumbs.db
