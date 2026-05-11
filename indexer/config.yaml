@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=./node_modules/envio/evm.schema.json
+name: BuyMeACoffee
+chains:
+- id: 10143
+  start_block: 31039934
+  contracts:
+  - name: BuyMeACoffee
+    address:
+    - 0x157598f1159ea8F6E21a9A75A7d857893E590C6B
+    events:
+    - event: CoffeeBought(uint256 indexed id, address indexed from, uint256 amount, string name, string message, uint256 timestamp)
+    - event: OwnershipTransferred(address indexed previousOwner, address indexed newOwner)
+    - event: Withdrawn(address indexed to, uint256 amount)
